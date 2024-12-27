@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/anjali-portfolio/static/css/main.8ade0af0.css",
+    "main.js": "/anjali-portfolio/static/js/main.06c84373.js",
+    "static/media/Anjali_profile_pic.jpeg": "/anjali-portfolio/static/media/Anjali_profile_pic.809698520fcd520cc2be.jpeg",
+    "static/media/Anjali.jpg": "/anjali-portfolio/static/media/Anjali.88f5c0a13ab203bb1946.jpg",
+    "static/media/bannerImg.png": "/anjali-portfolio/static/media/bannerImg.caa3d5e2872e84d77cf2.png",
+    "static/media/contactImg.png": "/anjali-portfolio/static/media/contactImg.8ddfbfd11798f881db54.png",
+    "static/media/testimonialOne.png": "/anjali-portfolio/static/media/testimonialOne.c4706b2d1cadcb9f4daf.png",
+    "static/media/projectThree.jpg": "/anjali-portfolio/static/media/projectThree.62d3773cb7785c5f53bb.jpg",
+    "static/media/IIIT-Guwahati-Logo.png": "/anjali-portfolio/static/media/IIIT-Guwahati-Logo.222813f67267faef658d.png",
+    "static/media/projectTwo.jpg": "/anjali-portfolio/static/media/projectTwo.d3dab342a7e65d3ebbd5.jpg",
+    "static/media/testimonialTwo.png": "/anjali-portfolio/static/media/testimonialTwo.c6df2773c486964035d9.png",
+    "static/media/bilaspur_school_logo.png": "/anjali-portfolio/static/media/bilaspur_school_logo.719fc1df293e31ed0b9b.png",
+    "static/media/iitd_logo.png": "/anjali-portfolio/static/media/iitd_logo.800d6ab6eb2b9efc04e2.png",
+    "static/media/TU_Bhilai_Logo.jpg": "/anjali-portfolio/static/media/TU_Bhilai_Logo.05d05e4f9ecf8e8ad3d4.jpg",
+    "static/media/projectOne.jpg": "/anjali-portfolio/static/media/projectOne.85cac1fc9cec183f27f5.jpg",
+    "static/media/school.svg": "/anjali-portfolio/static/media/school.a41655f6d5350015803153c7410cef6a.svg",
+    "static/media/work.svg": "/anjali-portfolio/static/media/work.3710b62484ed638074240e99317c6c60.svg",
+    "index.html": "/anjali-portfolio/index.html",
+    "main.8ade0af0.css.map": "/anjali-portfolio/static/css/main.8ade0af0.css.map",
+    "main.06c84373.js.map": "/anjali-portfolio/static/js/main.06c84373.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8ade0af0.css",
+    "static/js/main.06c84373.js"
+  ]
+}
