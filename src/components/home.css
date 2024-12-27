@@ -1,0 +1,94 @@
+.wrapper {
+    display: flex;
+    /* margin-right: 4vmax; */
+}
+
+.wrapper .first-text {
+    /* font-size: 4vmax;  */
+    color: #fff;
+}
+
+.wrapper .sec-texts {
+    height: 90px;
+    line-height: 90px;
+    overflow: hidden;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    /* Prevents the image from overflowing its container */
+    max-height: 400px;
+    /* Limits the height of the image */
+    height: auto;
+    /* Maintains the aspect ratio */
+    object-fit: cover;
+    /* Ensures the image fits nicely without distortion */
+    border-radius: 16px;
+    /* Adds rounded corners for a polished look */
+    margin: 0 auto;
+    /* Centers the image */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    /* Optional: Adds a subtle shadow for depth */
+}
+
+/* Media Queries for Responsive Adjustments */
+@media (max-width: 768px) {
+    img {
+        max-height: 300px;
+        /* Adjust height for medium-sized screens */
+    }
+}
+
+@media (max-width: 480px) {
+    img {
+        max-height: 250px;
+        /* Further scale down height for small screens */
+    }
+}
+
+
+.sec-texts li {
+    position: relative;
+    top: 0;
+    /* font-size: 4vmax; */
+    color: #fff;
+    list-style: none;
+    padding: 0 15px;
+    text-shadow: 0 0 10px #0ef;
+    animation: slide 12s steps(4) infinite, colorful 6s infinite;
+}
+
+@keyframes slide {
+    100% {
+        top: -360px;
+    }
+}
+
+@keyframes colorful {
+    100% {
+        filter: hue-rotate(360deg);
+    }
+}
+
+.sec-texts li span {
+    position: relative;
+}
+
+.sec-texts li span::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 400px;
+    height: 90px;
+    background: #000;
+    border-left: 2px solid #0ef;
+    animation: typing 1.5s steps(13) infinite alternate;
+}
+
+@keyframes typing {
+    100% {
+        left: 100%;
+        margin: 0 -35px 0 35px;
+    }
+}

@@ -1,0 +1,58 @@
+/* Vertical Timeline Element Content */
+.vertical-timeline-element-content {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+/* Animation Trigger */
+.vertical-timeline-element-content.animate {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Buttons */
+h3 {
+  padding-top: 0.25em;
+}
+
+.date {
+  color: rgb(201, 251, 255);
+}
+
+#description {
+  margin: 1.5em 0 2em 0;
+}
+
+.button {
+  text-decoration: none;
+  padding: 0.5em 1em;
+  border-radius: 5px;
+  color: rgb(0, 0, 0);
+}
+
+.workButton {
+  background-color: #06d6a0;
+}
+
+.workButton:hover {
+  background-color: #0ac593;
+}
+
+.schoolButton {
+  background-color: #f9c74f;
+}
+
+.schoolButton:hover {
+  background-color: #f3bc3c;
+}
+
+/* Responsive Adjustments */
+@media only screen and (max-width: 1700px) {
+  .vertical-timeline-element-date {
+    display: block !important;
+    float: none !important;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px #ff0000;
+  }
+}
